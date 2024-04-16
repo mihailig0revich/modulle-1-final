@@ -1,0 +1,68 @@
+@import "../variables";
+.footer-contats {
+  &__number{
+    font-size: 24px;
+    line-height: 32px;
+    font-weight: bold;
+    letter-spacing: -0.6000000238418579px;
+    text-align: left;
+    padding: 0;
+    margin: 0 0 40px 0;
+    display: block;
+    text-decoration: none;
+    color: $blackText;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  &__number:hover{
+    opacity: 0.5;
+  }
+  &__nav-btn{
+    margin-right: 16px;
+  }
+  &__lang-btn {
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    padding: 0;
+    margin: 0 7px 0 0;
+    border: none;
+    background: none;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  &__lang-btn:hover{
+    opacity: 0.5;
+  }
+  &__lang{
+    display: flex;
+    justify-content: start;
+    margin-bottom: 32px;
+  }
+  &__info{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+  }
+  &__email{
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: -0.20000000298023224px;
+    text-align: left;
+    padding: 0;
+    text-decoration: none;
+    display: block;
+    color: $blackText;
+    opacity: 1;
+    transition: opacity 0.3s;
+  }
+  &__email:hover{
+    opacity: 0.5;
+  }
+  &__buttons{
+    display: flex;
+    justify-content: start;
+    padding-bottom: 16px;
+  }
+}

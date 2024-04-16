@@ -1,0 +1,16 @@
+@import "../variables";
+.element-with-highlight {
+    position: relative;
+    color: $grayText;
+
+    &:hover::after {
+      content: '';
+      height: 32px;
+      width: 8px;
+      background-color: $blueElem;
+      position: absolute;
+      border-radius: 4px;
+      left: -28px;
+      top: -4px;
+    }
+}

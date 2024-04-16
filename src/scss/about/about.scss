@@ -1,0 +1,44 @@
+@import "../variables";
+.about{
+  background-color: $bgColor;
+
+  &__menu{
+    display: none;
+    justify-self: end;
+    align-items: center;
+    @media screen and (min-width: 1440px) {
+      display: flex;
+    }
+  }
+
+  &__title-with-highlight {
+    height: 40px;
+  }
+
+  &__title-nav {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    @media screen and (min-width: 768px) {
+        padding-bottom: 32px;
+    }
+    @media screen and (min-width: 1120px) {
+        padding-top: 42px;
+        padding-bottom: 8px;
+    }
+  }
+
+  &__navigation {
+    position: relative;
+    &::after{
+      content: '';
+      width: 24px;
+      height: 40px;
+      background: -webkit-linear-gradient(left, rgba(248,248,248,0), rgba(248,248,248,1));
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}

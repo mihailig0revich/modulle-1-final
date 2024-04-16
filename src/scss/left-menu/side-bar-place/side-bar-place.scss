@@ -1,0 +1,8 @@
+.side-bar-place {
+  width: 320px;
+  order: 1;
+  flex: none;
+  @media screen and (max-width: 1440px) {
+    display: none;
+  }
+}

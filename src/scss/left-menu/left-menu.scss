@@ -1,0 +1,14 @@
+.left-menu{
+  display: flex;
+  justify-content: start;
+  align-items: center;
+
+  &__nav-btn{
+    margin-right: 16px;
+  }
+}
+.header__left-menu .left-menu__exit-btn {
+  @media screen and (min-width:1440px) {
+    display: none;
+  }
+}

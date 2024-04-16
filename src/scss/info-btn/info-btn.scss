@@ -1,0 +1,29 @@
+@import "../variables";
+.info-btn{
+  height: 40px;
+  padding: 0 11px;
+  color: $grayText;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 500;
+  border: 0;
+  border-radius: 6px;
+  white-space: nowrap;
+  background: none;
+  &:hover{
+    color: $blackText;
+  }
+  @media screen and (min-width: 1120px) {
+    padding: 0 22px;
+  }
+  &_active {
+    border: 2px solid $blueBorder;
+    background-color:  $whiteColor;
+    &:hover{
+      color: $grayText;
+    }
+  }
+}
+
+
+
